@@ -1,0 +1,75 @@
+libencode-jis2k-perl (0.03-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:45:00 +0800
+
+libencode-jis2k-perl (0.03-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Drop 0001-Make-the-XS-code-reproducible-by-sorting-hash-keys.patch.
+    Merged upstream.
+  * Add year of upstream copyright to debian/copyright.
+  * Declare compliance with Debian Policy 3.9.6.
+  * Mention module name in long description.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 04 Jul 2015 21:01:02 +0200
+
+libencode-jis2k-perl (0.02-3) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ Niko Tyni ]
+  * Make the XS code reproducible by sorting hash keys in Makefile.PL.
+  * Declare the package autopkgtestable.
+
+ -- Niko Tyni <ntyni@debian.org>  Mon, 01 Jun 2015 20:35:31 +0300
+
+libencode-jis2k-perl (0.02-2) unstable; urgency=low
+
+  [ Nicholas Bamber ]
+  * Fixed bug number (should not have been #590058)
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ gregor herrmann ]
+  * debian/control: update {versioned,alternative} (build) dependencies.
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Axel Beckert ]
+  * debian/copyright: migrate pre-1.0 format to 1.0 using "cme fix dpkg-
+    copyright"
+
+  [ gregor herrmann ]
+  * debian/control: remove Nicholas Bamber from Uploaders on request of
+    the MIA team.
+  * Strip trailing slash from metacpan URLs.
+
+  [ Florian Schlichting ]
+  * Switch dh compatibility to level 9 to enable passing of hardening flags
+  * Update stand-alone license paragraphs to commonly used version (not
+    limiting Debian to GNU/Linux, directly linking to GPL-1)
+  * Declare compliance with Debian Policy 3.9.5
+  * Remove extra "perl" from Depends
+  * Add myself to uploaders and copyright
+
+ -- Florian Schlichting <fsfs@debian.org>  Sun, 13 Apr 2014 17:42:38 +0200
+
+libencode-jis2k-perl (0.02-1) unstable; urgency=low
+
+  [ Nicholas Bamber ]
+  * Initial Release. (Closes: #590065)
+
+  [ Tim Retout ]
+  * debian/copyright: Refer to 'GPL-1' file rather than 'GPL' symlink.
+  * debian/libencode-jis2k-perl.docs: Remove.
+
+ -- Nicholas Bamber <nicholas@periapt.co.uk>  Wed, 28 Jul 2010 11:12:46 +0100
